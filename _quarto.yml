@@ -4,7 +4,7 @@ project:
 book:
   title: "IDR 4000 MAPPEEKSAMEN"
   author: "KAND NR 415"
-  date: "17/11/2023"
+  date: "11/17/2023"
   chapters:
     - index.qmd
     - 01-reliabilitet.qmd
@@ -12,14 +12,16 @@ book:
     - 03-vitenskapsfilosofi.qmd
     - 04-studiedesign.qmd
     - 05-analyse_av_repeterte_forsok.qmd
+    - referanser.qmd
 
 bibliography: referanser.bib
-
 format:
   html:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+
+editor: visual
 
 
 
